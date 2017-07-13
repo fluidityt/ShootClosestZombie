@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DFD35421F17CBD2008E93FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD35411F17CBD2008E93FE /* AppDelegate.swift */; };
+		4DFD35441F17CBD2008E93FE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4DFD35431F17CBD2008E93FE /* GameScene.sks */; };
+		4DFD35461F17CBD2008E93FE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4DFD35451F17CBD2008E93FE /* Actions.sks */; };
+		4DFD35481F17CBD2008E93FE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD35471F17CBD2008E93FE /* GameScene.swift */; };
+		4DFD354A1F17CBD2008E93FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD35491F17CBD2008E93FE /* ViewController.swift */; };
+		4DFD354C1F17CBD2008E93FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFD354B1F17CBD2008E93FE /* Assets.xcassets */; };
+		4DFD354F1F17CBD2008E93FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFD354D1F17CBD2008E93FE /* Main.storyboard */; };
+		4DFD35581F17D9FC008E93FE /* BombTurret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD35571F17D9FC008E93FE /* BombTurret.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DFD353E1F17CBD2008E93FE /* ShootClosestZombie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShootClosestZombie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFD35411F17CBD2008E93FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DFD35431F17CBD2008E93FE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		4DFD35451F17CBD2008E93FE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		4DFD35471F17CBD2008E93FE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4DFD35491F17CBD2008E93FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DFD354B1F17CBD2008E93FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DFD354E1F17CBD2008E93FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DFD35501F17CBD2008E93FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFD35571F17D9FC008E93FE /* BombTurret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BombTurret.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DFD353B1F17CBD2008E93FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DFD35351F17CBD2008E93FE = {
+			isa = PBXGroup;
+			children = (
+				4DFD35401F17CBD2008E93FE /* ShootClosestZombie */,
+				4DFD353F1F17CBD2008E93FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DFD353F1F17CBD2008E93FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DFD353E1F17CBD2008E93FE /* ShootClosestZombie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DFD35401F17CBD2008E93FE /* ShootClosestZombie */ = {
+			isa = PBXGroup;
+			children = (
+				4DFD35561F17CBE6008E93FE /* junk */,
+				4DFD35471F17CBD2008E93FE /* GameScene.swift */,
+				4DFD35571F17D9FC008E93FE /* BombTurret.swift */,
+			);
+			path = ShootClosestZombie;
+			sourceTree = "<group>";
+		};
+		4DFD35561F17CBE6008E93FE /* junk */ = {
+			isa = PBXGroup;
+			children = (
+				4DFD35411F17CBD2008E93FE /* AppDelegate.swift */,
+				4DFD35431F17CBD2008E93FE /* GameScene.sks */,
+				4DFD35451F17CBD2008E93FE /* Actions.sks */,
+				4DFD35491F17CBD2008E93FE /* ViewController.swift */,
+				4DFD354B1F17CBD2008E93FE /* Assets.xcassets */,
+				4DFD354D1F17CBD2008E93FE /* Main.storyboard */,
+				4DFD35501F17CBD2008E93FE /* Info.plist */,
+			);
+			name = junk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DFD353D1F17CBD2008E93FE /* ShootClosestZombie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFD35531F17CBD2008E93FE /* Build configuration list for PBXNativeTarget "ShootClosestZombie" */;
+			buildPhases = (
+				4DFD353A1F17CBD2008E93FE /* Sources */,
+				4DFD353B1F17CBD2008E93FE /* Frameworks */,
+				4DFD353C1F17CBD2008E93FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShootClosestZombie;
+			productName = ShootClosestZombie;
+			productReference = 4DFD353E1F17CBD2008E93FE /* ShootClosestZombie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DFD35361F17CBD2008E93FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "justin fluidity";
+				TargetAttributes = {
+					4DFD353D1F17CBD2008E93FE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4DFD35391F17CBD2008E93FE /* Build configuration list for PBXProject "ShootClosestZombie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DFD35351F17CBD2008E93FE;
+			productRefGroup = 4DFD353F1F17CBD2008E93FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DFD353D1F17CBD2008E93FE /* ShootClosestZombie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DFD353C1F17CBD2008E93FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFD35441F17CBD2008E93FE /* GameScene.sks in Resources */,
+				4DFD354C1F17CBD2008E93FE /* Assets.xcassets in Resources */,
+				4DFD35461F17CBD2008E93FE /* Actions.sks in Resources */,
+				4DFD354F1F17CBD2008E93FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DFD353A1F17CBD2008E93FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFD354A1F17CBD2008E93FE /* ViewController.swift in Sources */,
+				4DFD35581F17D9FC008E93FE /* BombTurret.swift in Sources */,
+				4DFD35481F17CBD2008E93FE /* GameScene.swift in Sources */,
+				4DFD35421F17CBD2008E93FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DFD354D1F17CBD2008E93FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DFD354E1F17CBD2008E93FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DFD35511F17CBD2008E93FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DFD35521F17CBD2008E93FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		4DFD35541F17CBD2008E93FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShootClosestZombie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zigg.ShootClosestZombie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4DFD35551F17CBD2008E93FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShootClosestZombie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zigg.ShootClosestZombie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DFD35391F17CBD2008E93FE /* Build configuration list for PBXProject "ShootClosestZombie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFD35511F17CBD2008E93FE /* Debug */,
+				4DFD35521F17CBD2008E93FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFD35531F17CBD2008E93FE /* Build configuration list for PBXNativeTarget "ShootClosestZombie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFD35541F17CBD2008E93FE /* Debug */,
+				4DFD35551F17CBD2008E93FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DFD35361F17CBD2008E93FE /* Project object */;
+}
